@@ -6,9 +6,9 @@
 #include <WiFiSSLClient.h>
 
 // pag 3496 manuale
-  #define SERIAL_NUMBER_WORD_0  *(unsigned long*)(0x1FF1E800)
-  #define SERIAL_NUMBER_WORD_1  *(unsigned long*)(0x1FF1E804)
-  #define SERIAL_NUMBER_WORD_2  *(unsigned long*)(0x1FF1E808)
+#define SERIAL_NUMBER_WORD_0  *(unsigned long*)(0x1FF1E800)
+#define SERIAL_NUMBER_WORD_1  *(unsigned long*)(0x1FF1E804)
+#define SERIAL_NUMBER_WORD_2  *(unsigned long*)(0x1FF1E808)
 
 int MIN_NTP_PORT = 49152;
 int MAX_NTP_PORT = 65535;
