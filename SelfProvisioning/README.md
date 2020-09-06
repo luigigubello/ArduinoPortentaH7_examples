@@ -10,6 +10,6 @@ Arduino IoT Cloud self-provisioning sketch. Just uploading the sketch to Arduino
 
 1. Download the [Arduino Portenta core](https://github.com/arduino/ArduinoCore-mbed) and follow the instractions to install it
 2. Upload the example sketch [PortentaWiFiFirmwareUpdater](https://github.com/arduino/ArduinoCore-mbed/tree/master/libraries/WiFi/examples/PortentaWiFiFirmwareUpdater) to Arduino Portenta (if you've ever uploaded this sketch, you can skip this point)
-![PortentaWiFiFirmwareUpdater in Arduino IDE](/img/Screenshot_1.png)
+![PortentaWiFiFirmwareUpdater in Arduino IDE](/SelfProvisioning/img/Screenshot_1.png)
 3. In `arduino_secrets.h` add your WiFi credentials and your Arduino IoT Cloud APIs credentials
 4. Upload the sketch to the board and open the serial monitor
