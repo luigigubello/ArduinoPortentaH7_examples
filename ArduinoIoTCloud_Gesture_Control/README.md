@@ -9,7 +9,7 @@ This example shows how to sync an Arduino Portenta H7 and an Arduino Nano 33 BLE
 - [Arduino IoT Cloud](https://create.arduino.cc)
 
 1. Create a new thing on [Arduino IoT Cloud](https://create.arduino.cc/iot/) by associating the Arduino Portenta H7
-<br/><details><img src="/ArduinoIoTCloud_Gesture_Control/img/Screenshot_1.png" width="50%" alt="Arduino IoT Cloud thing example"></img></details>
+<br/><details><img src="/ArduinoIoTCloud_Gesture_Control/img/Screenshot_1.png" width="70%" alt="Arduino IoT Cloud thing example"></img></details>
 2. Add a boolean property to the thing, by calling it `ledSwitch`
 3. Create a new [dashboard](https://create.arduino.cc/iot/dashboards/) by inserting a switch button linked to the previous boolean property
 4. In `arduino_secret.h` add your WiFi credentials and your thing UUID
